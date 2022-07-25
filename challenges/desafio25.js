@@ -2,7 +2,7 @@
 
 db.produtos.updateOne({ valoresNutricionais: { 
         $elemMatch: { 
-    tipo: "sódio",
+     tipo: "sódio",
      percentual: {
          $gt: 40,
 } } } }, {
